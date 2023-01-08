@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2? familia= Pacifico & display=swap');
+* {
+    font-family: 'Pacifico', cursive;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../img/fundoBarbie5.jpg");
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.jogadores{
+    width: 600px;
+    height: 120px;
+    border-radius: 20px;
+    border: 5px solid rgb(246, 82, 183);
+    background-color: rgb(218, 55, 161);
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.col-4{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 2px;
+    width: 95%;
+    float: left;
+}
+.player {
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+   
+
+}
+
+#tabuleiro {
+    border-radius: 20px;
+    border: 10px dashed rgb(3, 1, 2);
+    padding: 5px;
+    width: 600px;
+    overflow: auto;
+
+}
+
+.boxTabuleiro {
+    width: 33.33%;
+    height: 200px;
+    border-radius: 20px;
+    border: 5px solid rgb(235, 54, 165);
+    float: left;
+    background-color: rgb(207, 34, 147);
+}
+
+.boxTabuleiro:hover {
+    border: 5px solid rgb(184, 32, 158);
+    background-color: rgb(184, 32, 158);
+    cursor: pointer;
+}
+
+.imgTabuleiro {
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.imgXis {
+    background-image: url('../img/x.png');
+}
+
+.imgCircle {
+    background-image: url('../img/0.png');
+}
+.jogadores input[type="button"] {
+    width: 150px;
+    height: 60px;
+    margin-bottom: 25px;
+    font-size: 20px;
+    margin-top: 40px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgb(237, 120, 167);
+    color: rgb(12, 4, 4);
+
+ 
+}
+.jogadores input[type="button"]:hover {
+    background-color:  rgb(227, 75, 186);
+    color: white;
+}
+h3{
+    font-size: 30px;
+    color: rgb(6, 0, 6);
+    text-shadow: 0 0 0.2em rgb(89, 246, 222), 0 0 0.2em rgb(218, 105, 252),
+    0 0 0.2em rgb(244, 244, 245)}
+
+@media screen and (min-width: 600px) and (max-width: 900px) {
+	
+	main {
+		display: inline-block;
+	}
+}
+
+/* max device width */
+@media screen and (max-device-width: 480px) {
+	body {
+		background: #ccc;
+	}
+}

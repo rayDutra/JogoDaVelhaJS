@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2? familia= Pacifico & display=swap');
+* {
+    font-family: 'Pacifico', cursive;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../img/fundoBarbie4.jpg);
+}
+.imagem{
+    width: 150px;
+}
+h1{
+    font-size: 30px;
+    color: rgb(4, 0, 4);
+    text-shadow: 0 0 0.2em rgb(89, 246, 222), 0 0 0.2em rgb(218, 105, 252),
+    0 0 0.2em rgb(244, 244, 245)}
+.login>div {
+    width: 500px;
+    margin: 0%;
+    box-shadow: 20px 30px rgb(143, 16, 138);
+    border-radius: 50px;
+    text-align: center;
+    padding: 30px;
+    background-color: rgb(223, 46, 164);
+    height: 550px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -250px;
+    margin-top: -300px;
+}
+
+.login input[type="text"],
+.login input[type="password"] {
+    font-size: 20px;
+    font-weight: bold;
+    width:400px;
+    margin: 15px 0px;
+    border-radius: 10px;
+    padding: 5px;
+    border: none;
+    box-shadow: 6px 20px  rgb(143, 16, 138);
+
+    outline: none;
+}
+
+.login input[type="button"] {
+    width: 200px;
+    height: 60px;
+    margin: 5px 0px;
+    font-size: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgb(251, 251, 251);
+    box-shadow: 6px 20px rgb(143, 16, 138);
+    color: rgb(12, 4, 4);
+    border: none;
+    text-shadow: 1px 1px 1px black;
+    outline: none;
+}
+
+.login input[type="button"]:hover {
+    background-color:  rgb(227, 75, 186);
+    color: white;
+}
+
+.login p {
+    font-size: 15px;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Acesso Jogo</title>
+  <link rel="stylesheet " href="css/jAlertWifi.css">
+  <link rel="stylesheet " href="css/jogo.css">
+  <script src="js/jAlertWifi.js"></script>
+  <script src="js/jogo.js"></script>
+
+</head>
+
+<body onload="criarTabuleiro(),getTextHome() ">
+    
+    <main class="container">
+        
+        <section >
+            <div class="jogadores">
+               
+                <div id="j1" class="player">
+                    <h3>Jogador 01</h3>
+                   <div ><span id="txtHome"> </span><span></span></div></div>
+                <div class="player"><div class="col-4"><input type="button" id="btnLogin" value="Começar" onclick="reset()"></div> </div>
+                <div class="player">
+                    <h3>Jogador 02</h2>
+                   <div id="j2"><span id="txtHome1"> </span><span></span></div></div>
+            </div>
+            <div id="tabuleiro">
+            </div>
+        </section>
+    </main>
+</body>
+</html>
